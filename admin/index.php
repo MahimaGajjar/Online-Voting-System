@@ -30,8 +30,7 @@
         <div class="signup-link">Not a membat? <a href="#">Signup now</a></div>
       </form>
     </div>
-
-  </body>
+</body>
 </html>
 
 
