@@ -1,0 +1,39 @@
+Database Structure
+
+admin
+	id
+	email_id
+	password
+college
+	id
+	name
+club
+	id
+	college_id
+	name
+student
+	id
+	name
+	email
+	password
+	college_id (FK)
+	status
+
+club membership
+	id
+	club_id
+	student_id
+
+candidates
+	id
+	club_id
+	student_id
+votes
+	id
+	club_id
+	student_id
+	candidate_id
+	
+
+
+

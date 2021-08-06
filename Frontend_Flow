@@ -1,0 +1,36 @@
+Frontend Flow/ Frontend Wireframe
+
+1. Admin
+	Login
+1/root
+	/admin
+		login.php
+		index.php (list of colleges, clubs, students & delete 					button for colleges, clubs)
+		home.php
+		index.php
+		add-clg.php
+		delete_clg.php
+		delete_club.php
+		add-club.php
+		getclubandstud.php
+		getvotes.php
+		result.php
+		select-candidate.php
+		logout.php
+	/public
+		home.php(logout,view election results,select clubs,view 				club memberships,cast the votes)
+		index.php(register.php)
+		login.php 
+		home.php
+		getcandidate.php
+		getvote.php
+		result.php
+		select_club.php
+		vote.php
+		logout.php
+	/includes
+		init.php (db_conn,functions[create,read,update,delete])
+		head.php
+		footer.php
+		nav_admin.php
+		nav_user.php
